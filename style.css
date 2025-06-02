@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: #F5F4F0;
+}
+.headline {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold; /* a fonte fica em negrito */
+    color: #e1624f;
+    text-transform: uppercase;
+    margin-bottom: 8px; /* a fonte fica com todas as letras em maiúsculo */
+  }
+
+  #page{
+   
+    border: red solid 1px;
+    box-sizing: border-box;
+    margin: 88px 80px;
+    gap: 40px;
+    align-items: top left;
+  }
+  #title{
+    gap: 8px;
+  }
+  #description{
+    padding-top: 40px;
+    
+  }
+ 
+  img {
+    width: 100%;
+    border-radius: 28px; 
+    height: 375px;
+    object-fit: cover; /* Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer */
+    margin-top: 44px;
+      
+    
+  }
+  h1{
+    color: #1B1B1B;;
+  }
+ 
